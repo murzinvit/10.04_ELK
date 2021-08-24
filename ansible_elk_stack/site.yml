@@ -1,0 +1,14 @@
+---
+- name: Install Python3 + sudo
+  hosts: all
+  roles:
+      - python3-role
+
+- name: Install ELK_stack
+  hosts: all
+  become: true
+  roles:
+      - java-role
+      - elastic-role
+      - kibana-role
+      - logstash-role
