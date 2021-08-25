@@ -1,6 +1,7 @@
 ---
  - src: git@github.com:murzinvit/python3-role.git
    scm: git
+   version: 1.0.1
    name: python3-role
 
  - src: git@github.com:murzinvit/java-role.git
