@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:latest
 RUN yum -y update && yum -y install wget sudo java-11-openjdk-devel initscripts
 RUN cd /opt && wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm
 RUN cd /opt && yum -y install elasticsearch-7.14.0-x86_64.rpm
