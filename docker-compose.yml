@@ -1,0 +1,8 @@
+version: '2'
+services:
+  elastic_node1:
+     image: murzinvit/elasticsearch:latest
+     ports: 
+       - "9200:9200"
+     volumes:
+       - /elastic/node1:/mnt
