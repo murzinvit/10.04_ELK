@@ -1,5 +1,5 @@
 # 10.04_ELK
-
+Для подготовки docker образа Kibana:  [kibana-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/kibana/kibana-7.14.0-x86_64.rpm) </br>
 ### Рабочие заметки: </br>
 #### При выполнении playbook на Debian происходит ошибка, при этом на Ubuntu всё работает: </br>
 ![screen](https://github.com/murzinvit/screen/blob/2d293f2726bd89575382e14ab23cead259d227de/Error_in_Debian.png) </br>
