@@ -1,7 +1,8 @@
 # 10.04_ELK
 Для подготовки docker образа Kibana:  [kibana-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/kibana/kibana-7.14.0-x86_64.rpm) </br>
-Создать сеть для контейнера: `docker network disconnect itisgood_network determined_dubinsky` </br>
-
+Для подготовки docker образа Elasticsearch:  [elasticsearch-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm) </br>
+Создать сеть для контейнера: `docker network create --driver bridge elk` </br>
+Запуск контейнера: `docker run -d --name elastic --network=elk -v /ELK:/mnt -p 9200:9200 elastic:latest` </br>
 
 ### Рабочие заметки: </br>
 Для установки инфраструктуры мониторинга использовал Ubuntu 20.04. </br>
