@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t logstash-14:latest .
+docker build -t murzinvit/logstash:latest .

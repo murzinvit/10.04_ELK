@@ -1,1 +1,1 @@
-docker build -t murzinvit/elasticsearch:latest .
+docker build -t murzinvit/elastic:latest .
