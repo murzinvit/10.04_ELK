@@ -18,3 +18,4 @@ RUN chmod +x /etc/profile.d/lstash.sh
 RUN export PATH=$PATH:/usr/share/logstash/bin
 CMD /usr/share/logstash/bin/logstash && sleep 600000000
 EXPOSE 9600
+EXPOSE 5044
