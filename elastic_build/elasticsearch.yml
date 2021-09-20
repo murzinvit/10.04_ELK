@@ -1,0 +1,6 @@
+path.data: /var/lib
+network.host: 0.0.0.0
+http.port: 9200
+discovery.type: single-node
+node.name: es01
+path.repo: /etc/elasticsearch/snapshots
