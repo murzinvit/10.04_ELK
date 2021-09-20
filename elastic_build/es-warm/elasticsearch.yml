@@ -1,9 +1,9 @@
-node.name: es-hot
-cluster.name=es-docker-cluster
-discovery.seed_hosts: es-warm
-cluster.initial_master_nodes=es-hot,es-warm
-bootstrap.memory_lock=true
-path.data: /var/lib
+node.name: es-warm
+cluster.name: es-docker-cluster
+discovery.seed_hosts: es-hot
+cluster.initial_master_nodes: es-hot,es-warm
+#bootstrap.memory_lock=true
+#path.data: /var/lib
 network.host: 0.0.0.0
 http.port: 9200
 path.repo: /etc/elasticsearch/snapshots
