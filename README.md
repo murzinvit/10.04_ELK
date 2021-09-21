@@ -4,7 +4,11 @@
 ![screen](https://github.com/murzinvit/screen/blob/41e6c7d478f6df33735e459523f7123574a601ce/ELK_contaies_screen.jpg) </br>
 2) скриншот интерфейса kibana: </br>
 ![screen](https://github.com/murzinvit/screen/blob/11247bf5d6d801e6e696ef0132478f53f6b7dcd9/ELK_kibana_interface.jpg) </br>
-3) docker-compose манифест (если вы не использовали директорию help): </br>
+3) docker-compose манифест: </br>
+[docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
+4) ваши yml конфигурации для стека: </br>
+[docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
+
 ### Задание 2: </br>
 
 #### Рабочие заметки: </br>
@@ -13,7 +17,7 @@
 Для подготовки docker образа Elasticsearch:  [elasticsearch-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm) </br>
 Для подготовки docker образа Logstash:  [logstash-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/logstash/logstash-7.14.0-x86_64.rpm) </br>
 Агент для Debian - Filebeat:  [filebeat-7.11.0-amd64.deb](curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.11.0-amd64.deb) </br>
-Создать сеть для контейнера: `docker network create --driver bridge elk` </br>
+Создать сеть для контейнера: `docker network create --driver bridge elastik` </br>
 Запуск контейнера: `docker run -d --name elastic --network=elk -v /ELK:/mnt -p 9200:9200 elastic:latest` </br>
 Для установки инфраструктуры мониторинга использовал Ubuntu 20.04. </br>
 Установка в контейнер с centos:latest через [ansible-playbook](https://github.com/murzinvit/10.04_ELK/tree/main/ansible_elk_stack) </br>
