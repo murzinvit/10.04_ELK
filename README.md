@@ -1,6 +1,10 @@
 # 10.04_ELK
 ### Задание 1: </br>
-
+1)Cкриншот docker ps через 5 минут после старта всех контейнеров (их должно быть 5): </br>
+![screen](https://github.com/murzinvit/screen/blob/41e6c7d478f6df33735e459523f7123574a601ce/ELK_contaies_screen.jpg) </br>
+2) скриншот интерфейса kibana: </br>
+![screen](https://github.com/murzinvit/screen/blob/11247bf5d6d801e6e696ef0132478f53f6b7dcd9/ELK_kibana_interface.jpg) </br>
+3) docker-compose манифест (если вы не использовали директорию help): </br>
 ### Задание 2: </br>
 
 #### Рабочие заметки: </br>
