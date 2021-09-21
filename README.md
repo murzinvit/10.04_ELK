@@ -1,9 +1,9 @@
 # 10.04_ELK
-#### Задание 1: </br>
+### Задание 1: </br>
 
-#### Задание 2: </br>
+### Задание 2: </br>
 
-### Рабочие заметки: </br>
+#### Рабочие заметки: </br>
 Недостаток памяти исправил командой - `echo "vm.max_map_count=262144" >> /etc/sysctl.conf && sysctl -p` </br>
 Для подготовки docker образа Kibana:  [kibana-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/kibana/kibana-7.14.0-x86_64.rpm) </br>
 Для подготовки docker образа Elasticsearch:  [elasticsearch-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm) </br>
