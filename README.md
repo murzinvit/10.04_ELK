@@ -7,7 +7,12 @@
 3) docker-compose манифест: </br>
 [docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
 4) ваши yml конфигурации для стека: </br>
-[docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
+[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/kibana_build/kibana.yml) </br>
+[es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/elastic_build/es-hot/elasticsearch.yml) </br>
+[es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/elastic_build/es-warm/elasticsearch.yml) </br>
+[logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash.yml) </br>
+[logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash-sample.conf) </br>
+[pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/main/logstash_build/pipelines.yml) </br>
 
 ### Задание 2: </br>
 
