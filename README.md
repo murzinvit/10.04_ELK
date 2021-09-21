@@ -13,6 +13,7 @@
 [logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash.yml) </br>
 [logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash-sample.conf) </br>
 [pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/main/logstash_build/pipelines.yml) </br>
+Контейнеры собрал из Dockerfile, зайти в каждую папку и запустить- docker_build.sh. Запушил в dockerhub. filebeat взял рабочий из help, добавил его в docker-compose </br>
 
 ### Задание 2: </br>
 
