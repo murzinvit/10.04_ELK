@@ -6,4 +6,3 @@ cluster.initial_master_nodes: es-hot,es-warm
 #path.data: /var/lib
 network.host: 0.0.0.0
 http.port: 9200
-path.repo: /etc/elasticsearch/snapshots

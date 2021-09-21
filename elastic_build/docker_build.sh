@@ -1,1 +1,1 @@
-docker build -t murzinvit/elastic:latest .
+docker build -t murzinvit/es-hot:latest .

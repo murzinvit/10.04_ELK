@@ -13,8 +13,9 @@ services:
         hard: 65536
     ports:
       - 9200:9200
+      - 9300:9300
     networks:
-      - elk
+      - elastic
     depends_on:
       - es-warm
 
@@ -29,8 +30,38 @@ services:
         soft: 65536
         hard: 65536
     networks:
-      - elk
+      - elastic
+
+  logstash:
+    image: murzinvit/logstash:latest
+    container_name: logstash
+    ports:
+      - 5044:5044
+      - 9600:9600
+    networks:
+      - elastic
+    depends_on:
+      - es-hot
+      - es-warm
+
+  kibana:
+    image: murzinvit/kibana:latest
+    container_name: kibana
+    ports:
+      - 5601:5601
+    volumes:
+      - ./data:/mnt
+    networks:
+      - elastic
 
 networks:
-  elk:
+  elastic:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
+
+networks:
+  elastic:
     driver: bridge
