@@ -65,10 +65,8 @@ services:
       - es-warm
 
   filebeat:
-    image: "docker.elastic.co/beats/filebeat:7.2.0"
+    image: "murzinvit/filebeat:latest"
     container_name: filebeat
-    volumes:
-      - ./configs/filebeat.yml:/usr/share/filebeat/filebeat.yml:Z
     depends_on:
       - logstash
     networks:
