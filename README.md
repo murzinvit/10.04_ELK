@@ -7,12 +7,12 @@
 3) docker-compose манифест: </br>
 [docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
 4) ваши yml конфигурации для стека: </br>
-[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/kibana_build/kibana.yml) </br>
-[es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/elastic_build/es-hot/elasticsearch.yml) </br>
-[es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/elastic_build/es-warm/elasticsearch.yml) </br>
-[logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash.yml) </br>
-[logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash-sample.conf) </br>
-[pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/main/logstash_build/pipelines.yml) </br>
+[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/kibana/kibana.yml) </br>
+[es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/es-hot/elasticsearch.yml) </br>
+[es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/es-warm/elasticsearch.yml) </br>
+[logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/logstash.yml) </br>
+[logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/logstash-sample.conf) </br>
+[pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/pipelines.yml) </br>
 [filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/8979a32504a2d9d3c4041920d7f12d4e2590400a/filebeat/filebeat.yml) </br>
 Для сборки всех контейнеров запустить скрипт docker_build_elk.sh. Конфиги и Dockerfile лежать по своим папкам. </br>
 Контейнеры запушены в dockerhub так что можно просто запускать `docker-compose up`. </br>
