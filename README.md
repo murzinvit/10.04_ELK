@@ -29,3 +29,4 @@
 Установка в контейнер с centos:latest через [ansible-playbook](https://github.com/murzinvit/10.04_ELK/tree/main/ansible_elk_stack) </br>
 Самопальный контенер с Elasticsearch: `docker pull murzinvit/elasticsearch:latest` </br>
 Информация по настройке logstash: [https://russianblogs.com](https://logz.io/blog/filebeat-vs-logstash/) </br>
+Ошибка docker login - error storing creditionals - `sudo apt install gnupg2 pass` </br>
