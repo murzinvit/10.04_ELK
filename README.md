@@ -17,8 +17,10 @@
 Для сборки всех контейнеров запустить скрипт docker_build_elk.sh. Конфиги и Dockerfile лежать по своим папкам. </br>
 Контейнеры запушены в dockerhub так что можно просто запускать `docker-compose up`. </br>
 docker-compose.yml пришлось брать примером из help, т.к ошибки Out of memory kill process и прочее </br>
-Перед запуском создать сеть для контейнеров: `docker network create --driver=bridge elastik` </br>
+Перед запуском создать сеть для контейнеров: `docker network create --driver=bridge elastiс` </br>
 Просмотр сетей: `docker network ls` </br>
+В filebeat.yml - монтируется хостовый /var/log и от туда берётся syslog </br>
+
 
 ### Задание 2: </br>
 
