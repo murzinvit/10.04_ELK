@@ -18,6 +18,7 @@
 Контейнеры запушены в dockerhub так что можно просто запускать `docker-compose up`. </br>
 docker-compose.yml пришлось брать примером из help, т.к ошибки Out of memory kill process и прочее </br>
 Перед запуском создать сеть для контейнеров: `docker network create --driver=bridge elastik` </br>
+Просмотр сетей: `docker network ls` </br>
 
 ### Задание 2: </br>
 
@@ -27,7 +28,6 @@ docker-compose.yml пришлось брать примером из help, т.к
 Для подготовки docker образа Elasticsearch:  [elasticsearch-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-x86_64.rpm) </br>
 Для подготовки docker образа Logstash:  [logstash-7.14.0-x86_64.rpm](https://artifacts.elastic.co/downloads/logstash/logstash-7.14.0-x86_64.rpm) </br>
 Агент для Filebeat:  [filebeat-7.11.0-x86_64.rpm](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.11.0-x86_64.rpm) </br>
-Создать сеть для контейнера: `docker network create --driver bridge elastik` </br>
 Запуск контейнера: `docker run -d --name elastic --network=elk -v /ELK:/mnt -p 9200:9200 elastic:latest` </br>
 Для установки инфраструктуры мониторинга использовал Ubuntu 20.04. </br>
 Установка в контейнер с centos:latest через [ansible-playbook](https://github.com/murzinvit/10.04_ELK/tree/main/ansible_elk_stack) </br>
