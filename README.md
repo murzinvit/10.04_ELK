@@ -13,7 +13,7 @@
 [logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash.yml) </br>
 [logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/b41d055084cdefd28afb07e493b372b97b6ea43b/logstash_build/logstash-sample.conf) </br>
 [pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/main/logstash_build/pipelines.yml) </br>
-[filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/c1f72b3699af2c2c52814317b8babfdfcffb072b/filebeat/filebeat.yml) </br>
+[filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/8979a32504a2d9d3c4041920d7f12d4e2590400a/filebeat/filebeat.yml) </br>
 Для сборки всех контейнеров запустить скрипт docker_build_elk.sh. Конфиги и Dockerfile лежать по своим папкам. </br>
 Контейнеры запушены в dockerhub так что можно просто запускать `docker-compose up`. </br>
 docker-compose.yml пришлось брать примером из help, т.к ошибки Out of memory kill process и прочее </br>
