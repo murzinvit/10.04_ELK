@@ -14,6 +14,7 @@
 [logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/logstash-sample.conf) </br>
 [pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/pipelines.yml) </br>
 [filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/8979a32504a2d9d3c4041920d7f12d4e2590400a/filebeat/filebeat.yml) </br>
+Конфигурация добавляется при сборке контейнера, это не удобно т.к для смены конфига приходиться пересобирать контейнер. docker-compose из help - удобнее </br>
 Для сборки всех контейнеров запустить скрипт docker_build_elk.sh. Конфиги и Dockerfile лежать по своим папкам. </br>
 Контейнеры запушены в dockerhub так что можно просто запускать `docker-compose up`. </br>
 docker-compose.yml пришлось брать примером из help, т.к ошибки Out of memory kill process и прочее </br>
