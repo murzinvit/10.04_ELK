@@ -23,6 +23,8 @@ docker-compose.yml пришлось брать примером из help, т.к
 
 
 ### Задание 2: </br>
+Индекс в кибане. Не смог добиться чтобы отображалось logstash: </br>
+![screen](https://github.com/murzinvit/screen/blob/e26a95df5aa29391adaea03dca55841e2d4d73ee/ELK_discover_index.jpg) </br>
 
 #### Рабочие заметки: </br>
 Недостаток памяти исправил командой - `echo "vm.max_map_count=262144" >> /etc/sysctl.conf && sysctl -p` </br>
