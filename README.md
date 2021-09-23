@@ -5,7 +5,7 @@
 2) скриншот интерфейса kibana: </br>
 ![screen](https://github.com/murzinvit/screen/blob/11247bf5d6d801e6e696ef0132478f53f6b7dcd9/ELK_kibana_interface.jpg) </br>
 3) docker-compose манифест: </br>
-[docker-compose.yml]() </br>
+[docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/ef4f3a03e66e593e97994b7a0756f01d3fc377db/docker-compose.yml) </br>
 4) ваши yml конфигурации для стека: </br>
 [kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/992245baf135d3200e516b9ff2b1ede7109885eb/kibana/kibana.yml) </br>
 [es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/es-hot/elasticsearch.yml) </br>
