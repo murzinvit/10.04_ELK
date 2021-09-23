@@ -24,9 +24,11 @@ docker-compose.yml пришлось брать примером из help, т.к
 
 
 ### Задание 2: </br>
-Индекс в кибане из докерконтейнера с filebeat. Не  добился чтобы отображалось как logstash: </br>
+Индекс в кибане из докерконтейнера с filebeat, без настройки индекса(в logstash-sample.conf не указывать - index =>): </br>
+![screen](https://github.com/murzinvit/screen/blob/beb1f20c85955b4ddb8f4261086068cd78be81e9/ELK_index_logstash.jpg) </br>
+Индекс в кибане из докерконтейнера с filebeat, с настройкой индекса: </br>
 ![screen](https://github.com/murzinvit/screen/blob/e26a95df5aa29391adaea03dca55841e2d4d73ee/ELK_discover_index.jpg) </br>
-Индекс в кибане из filebeat на другом хосте: </br>
+Индекс в кибане из filebeat на установленном другом хосте: </br>
 ![screen](https://github.com/murzinvit/screen/blob/1cb876bdc0753cf308e7f95e00390e7060ec01fc/ELK_discover_index_fbds.jpg) </br>
 
 #### Рабочие заметки: </br>
