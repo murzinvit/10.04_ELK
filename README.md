@@ -7,7 +7,7 @@
 3) docker-compose манифест: </br>
 [docker-compose.yml]() </br>
 4) ваши yml конфигурации для стека: </br>
-[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/kibana/kibana.yml) </br>
+[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/992245baf135d3200e516b9ff2b1ede7109885eb/kibana/kibana.yml) </br>
 [es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/es-hot/elasticsearch.yml) </br>
 [es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/es-warm/elasticsearch.yml) </br>
 [logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/logstash/logstash.yml) </br>
