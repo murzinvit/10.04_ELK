@@ -5,15 +5,15 @@
 2) скриншот интерфейса kibana: </br>
 ![screen](https://github.com/murzinvit/screen/blob/11247bf5d6d801e6e696ef0132478f53f6b7dcd9/ELK_kibana_interface.jpg) </br>
 3) docker-compose манифест: </br>
-[docker-compose.yml](https://github.com/murzinvit/10.04_ELK/blob/c99dd262abd8a729300030693b68491560c7ec6e/docker-compose.yml) </br>
+[docker-compose.yml]() </br>
 4) ваши yml конфигурации для стека: </br>
-[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/kibana/kibana.yml) </br>
-[es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/es-hot/elasticsearch.yml) </br>
-[es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/es-warm/elasticsearch.yml) </br>
-[logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/logstash.yml) </br>
-[logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/logstash-sample.conf) </br>
-[pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/d612e2a5e0e3016b34615339e3e1ead06e242250/logstash/pipelines.yml) </br>
-[filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/8979a32504a2d9d3c4041920d7f12d4e2590400a/filebeat/filebeat.yml) </br>
+[kibana.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/kibana/kibana.yml) </br>
+[es-hot elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/es-hot/elasticsearch.yml) </br>
+[es-warm elasticsearch.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/es-warm/elasticsearch.yml) </br>
+[logstash.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/logstash/logstash.yml) </br>
+[logstash-sample.conf](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/logstash/logstash-sample.conf) </br>
+[pipelines.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/logstash/pipelines.yml) </br>
+[filebeat.yml](https://github.com/murzinvit/10.04_ELK/blob/f723d384527f450f90f5723e7251a5f7e57749ae/filebeat/filebeat.yml) </br>
 Конфигурация добавляется при сборке контейнера, это не удобно т.к для смены конфига приходиться пересобирать контейнер. docker-compose из help - удобнее </br>
 Для сборки всех контейнеров запустить скрипт docker_build_elk.sh. Конфиги и Dockerfile лежать по своим папкам. </br>
 docker-compose.yml пришлось брать примером из help, т.к ошибки Out of memory kill process и т.п </br>
