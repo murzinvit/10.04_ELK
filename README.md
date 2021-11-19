@@ -42,3 +42,4 @@ docker-compose.yml пришлось брать примером из help, т.к
 Самопальный контенер с Elasticsearch: `docker pull murzinvit/elasticsearch:latest` </br>
 Информация по настройке logstash: [https://russianblogs.com](https://logz.io/blog/filebeat-vs-logstash/) </br>
 Ошибка docker login - error storing creditionals - `sudo apt install gnupg2 pass` </br>
+Объяснение по Elaticsearch: https://codedzen.ru/elasticsearch-vvedeniye-1-1-osnovnyye-ponyatiya/ </br>
